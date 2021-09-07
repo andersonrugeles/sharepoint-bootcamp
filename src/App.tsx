@@ -23,7 +23,7 @@ export const App = () => {
     <div className="App">
       {loading ? <div>cargando</div> :
         <div>
-          <h1>Nombre</h1>
+          <h1>Listado Base Datos Persona</h1>
           <ul>
             {Items.map((elemento: any) => 
             <li>{elemento.Title}-{elemento.Name1}</li> )}
